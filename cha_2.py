@@ -22,9 +22,13 @@ def str_c(x):
 
 raw="g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
 str_c(raw)
+
+m,a,p=ord('m'),ord('a'),ord('p')
+print(chr(m+2),chr(a+2),chr(p+2))
 #join使用不了
 #for不能改变原数据
 
+#--------------------
 #使用maketrans()函数
 raw="g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
 def chan(x):
@@ -40,3 +44,9 @@ input=chan(input)
 output=chan(output)
 trantab=str.maketrans(input,output)
 print (raw.translate(trantab))
+
+m,a,p=ord('m'),ord('a'),ord('p')
+print(chr(m+2),chr(a+2),chr(p+2))
+
+
+
