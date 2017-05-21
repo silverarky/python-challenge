@@ -17,6 +17,7 @@ for i in res:
 #--------------------
 #循环部分优化
 for i in res:
+    print("".join([t[0]*t[1] for t in i]))
 
 #join需要定义sep,不然会有NameError
         
