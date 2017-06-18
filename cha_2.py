@@ -27,4 +27,12 @@ for i in keys:
     print(i,list.count(i))
     
 #count只能用于列表
+
+#--------------------
+#利用dict下的Counter子类
+import collections as cl
+coun=cl.Counter()
+for x in raw:
+    coun[x]+=1
+    print(coun)
     
